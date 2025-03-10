@@ -15,7 +15,7 @@ class Student {
 
     Student(std::string first_name, std::string last_name);
 
-    auto get_grades_avg() const -> GradeAvgResult<float>;
+    [[nodiscard]] auto get_grades_avg() const -> GradeAvgResult<float>;
 };
 
 #endif

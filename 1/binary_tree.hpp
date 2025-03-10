@@ -40,13 +40,13 @@ template <typename T> class BinaryTree {
 
         std::cout << "L: depth: " << depth << ", value: ";
         if (this->l == nullptr)
-            std::cout << "empty" << std::endl;
+            std::cout << "empty" << '\n';
         else
             this->l->print(++depth);
 
         std::cout << "R: ";
         if (this->r == nullptr)
-            std::cout << "empty" << std::endl;
+            std::cout << "empty" << '\n';
         else
             this->r->print(++depth);
     }

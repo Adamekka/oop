@@ -1,6 +1,6 @@
 #include "binary_tree.hpp"
 
-int main() {
+auto main() -> int {
     BinaryTree bin_tree(5);
     bin_tree.push(3);
     bin_tree.push(4);

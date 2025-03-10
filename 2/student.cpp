@@ -34,5 +34,5 @@ auto Student::get_grades_avg() const -> GradeAvgResult<float> {
     float all_grades_avg = static_cast<float>(all_grades_sum)
                          / static_cast<float>(all_grades_count);
 
-    return GradeAvgResult(all_grades_avg, can_get_scholarship);
+    return {all_grades_avg, can_get_scholarship};
 }
