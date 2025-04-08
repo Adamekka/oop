@@ -48,7 +48,7 @@ auto DynamicArray::remove_at(size_t index) -> void {
         this->arr[i] = this->arr[i + 1];
 }
 
-auto DynamicArray::print() -> void {
+auto DynamicArray::print() const -> void {
     for (size_t i = 0; i < this->len; i++)
         std::cout << this->arr[i] << ' ';
 

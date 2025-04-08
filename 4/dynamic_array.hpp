@@ -29,7 +29,7 @@ class DynamicArray {
 
     auto remove_at(size_t index) -> void;
 
-    auto print() -> void;
+    auto print() const -> void;
 };
 
 #endif
